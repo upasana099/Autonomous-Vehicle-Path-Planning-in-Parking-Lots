@@ -4,10 +4,6 @@ Autonomous vehicles are becoming increasingly common on roads worldwide, and as 
 
 The challenge of parking becomes even more complex when the available space is compact, and multiple vehicles need to be parked in close proximity to each other. This requires a path planning algorithm that can take into account the kinematics of the vehicles, such as their turning radius and maximum steering angle, and can plan paths that enable the vehicles to park without colliding with each other.
 
-## Project Overview
-
-This project aims to develop a solution for autonomous vehicle path planning in parking lots. The solution combines motion planning and collision avoidance algorithms to enable vehicles to navigate and park in tight spaces. A simulated world is created using a 2D grid, where different vehicle types are placed in a compact space.
-
 ## Environment
 
 The project is built using Python's pygame package, which provides a graphical environment for the simulation. The parking lot is represented as a two-dimensional grid, where each cell represents a portion of the parking area. The vehicles start from the northwest corner of the grid and need to reach a small spot at the southern boundary, surrounded by other parked vehicles and an obstacle in the middle area.
